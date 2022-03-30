@@ -1,0 +1,14 @@
+@import "fonts.css";
+@import "header.css";
+
+body {
+  position: relative;
+  font-family: "Cinzel-Medium";
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  min-width: 320px;
+  overflow-x: hidden;
+  height: 200vh;
+  margin: 0px;
+}
