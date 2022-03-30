@@ -11,36 +11,46 @@
    </head>
   <body>
     <header>
-      <div class="menu-area"><!-- width 100% || heigth <100-200px -->
+      <div class="menu-area">
         <div class="content-menu">
-          <!-- add relang -->
-          <p>London</p><!-- a city -->
-          <p>## Hollycroft Ave</p><!-- address -->
+          <img src="img/logo-header.png" alt="logo website" height="60px" style="padding: 0 15px 0 0;">
+          <h2>Toilet Paper</h2>
         </div>
-        <div class="content-menu">
-          <div class="content-menu">
-            <img src="img/logo.png" height="60px" style="padding: 0 15px 0 0;">
-            <h2>Toilet Paper</h2><!-- h2~h3 -->
-          </div>
-          <div class="content-menu" style="padding: 0 100px 0 0">
-            <input class="input-area">
-            <img src="img/icon-search.png" height="34px"><!-- 'search' -->
-          </div>
-          <div class="content-menu">
-            <!-- 'basket ( buy )' -->
-            <a href="#">
-              <img src="img/icon-buy.png" height="48px">
-            </a>
-          </div>
+
+        <div class="content-menu" style="width: 220px">
+          <a href="#">
+            <img src="img/icon-search.png" alt="search">
+          </a>
+
+          <a href="#">
+            <img src="img/icon-profile.png" alt="profile">
+          </a>
+
+          <a href="#">
+            <img src="img/icon-basket.png" alt="cart">
+          </a>
         </div>
       </div>
+
       <div style="background: rgb( 120, 120, 120, 0.6 )">
-        <!-- width 100% || heigth 500-800px -->
         <div class="background-header">
-          <!-- picture background 'toilet papre' -->
           <div class="content-header">
             <h1>Best paper for your ass</h1>
+
+            <div class="product">
+              <img src="img/best-paper.webp" alt="product" class="product-image">
+
+              <div class="product-info">
+                <h3>BEST PAPER</h3>
+
+                <div class="info-price">
+                  <span>1$</span>
+                  <button class="product-add-to-cart"></button>
+                </div>
+              </div>
+            </div>
           </div>
+          
           <div class="overlay"></div>
         </div>
       </div>
@@ -62,5 +72,17 @@
     <div>
       <p class="ads">Paper</p>
     </div> -->
+    <!--
+    .ads {
+      position: fixed;
+
+      background: url( img/background-header.jpg );
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      min-height: 50vh;
+      color: white;
+      width: 400px;
+    } -->
   </body>
 </html>
