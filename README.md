@@ -3,7 +3,7 @@ Web-site online store about toilet paper ^▽^
 
   Plan:
 v-1.0.1;
-adding html and css;
+adding html and css filesh;
 markup area site, header;
 
 v-1.0.2;
@@ -22,11 +22,3 @@ adjustment;
 
 v-1.1.1
 footer
-
-
-
-
-
-
-
-
