@@ -1,5 +1,6 @@
-@import "fonts.css";
-@import "header.css";
+@import "source/fonts.css";
+@import "source/header.css";
+@import "source/footer.css";
 
 body {
   position: relative;
