@@ -1,7 +1,9 @@
-@import "fonts.css";
-@import "header.css";
+@import "source/fonts.css";
+@import "source/header.css";
+@import "source/footer.css";
 
 body {
+  display: grid;
   position: relative;
   font-family: "Cinzel-Medium";
   font-size: 20px;
@@ -9,6 +11,7 @@ body {
   color: #000000;
   min-width: 320px;
   overflow-x: hidden;
-  height: 200vh;
+  min-height: 100%;
   margin: 0px;
+  grid-template-rows: auto 1fr auto;
 }
