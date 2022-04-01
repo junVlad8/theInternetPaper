@@ -28,3 +28,7 @@ set css for footer: fonts, background, picture etc;
 
 v-1.1.3;
 adjustment;
+
+
+v-1.2.1;
+adding content in main;

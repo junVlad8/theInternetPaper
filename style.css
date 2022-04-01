@@ -1,5 +1,6 @@
 @import "source/fonts.css";
 @import "source/header.css";
+@import "source/main.css";
 @import "source/footer.css";
 
 body {
@@ -14,4 +15,38 @@ body {
   min-height: 100%;
   margin: 0px;
   grid-template-rows: auto 1fr auto;
+}
+
+.product-info {
+  padding: 10px 20px;
+  background: lightgrey;
+}
+
+.info-price {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 24px;
+  padding: 15px 0;
+}
+
+.product-add-to-cart {
+  width: 42px;
+  height: 36px;
+
+  border: none;
+  background: lightgrey;
+
+  background: url( img/icon-buy.png ) no-repeat;
+  background-size: 36px auto;
+
+  transition: all 0.3s cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+
+.product-add-to-cart:hover,
+.product-add-to-cart:focus {
+  background-image: url( img/icon-add-buy.png );
+  background-size: 36px auto;
 }
