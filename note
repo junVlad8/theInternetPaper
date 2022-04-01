@@ -1,6 +1,0 @@
-add a information to user profile:
-  -o a city;
-  -o address;
-  -o a lang;
-
-display for search will see, when onclick on button 'search';
